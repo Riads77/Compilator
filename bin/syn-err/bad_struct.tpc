@@ -1,0 +1,5 @@
+struct bad {
+    struct int evil;
+};
+
+int main(void){}

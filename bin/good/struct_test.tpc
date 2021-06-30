@@ -1,0 +1,25 @@
+struct hey {
+    int name;
+    struct hey brother;
+};
+
+struct hey yo;
+
+struct aircraft my_plane, my_shuttle, my_satellite;
+
+void fonction(struct hey x){}
+
+struct hey fonction_struct(void){
+    struct hey Hey;
+    return Hey;
+}
+
+int main(void){
+    struct point{
+                int x;
+                int y;
+    };
+
+    struct point Point;
+    fonction(hey);
+}

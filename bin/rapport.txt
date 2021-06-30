@@ -1,0 +1,97 @@
+bad_comm.tpc :
+/* oups /
+^
+error : /* oups /
+syntax error in line 7, in character 1
+
+return 1
+Syntax Error
+						
+bad_expression.tpc :
+p|^ëV              ^
+error : p|^ëVsyntax error in line 8, in character 15
+
+Ğ€^ëV^
+error : Ğ€^ëVsyntax error in line 13, in character 1
+
+return 1
+Syntax Error
+						
+bad_game.tpc :
+PıL‹U         ^
+error : PıL‹Usyntax error in line 14, in character 10
+
+ĞL‹U              ^
+error : ĞL‹Usyntax error in line 26, in character 15
+
+ğL‹U     ^
+error : ğL‹Usyntax error in line 36, in character 6
+
+P L‹U       ^
+error : P L‹Usyntax error in line 41, in character 8
+
+ğ)L‹U        ^
+error : ğ)L‹Usyntax error in line 54, in character 9
+
+3L‹U        ^
+error : 3L‹Usyntax error in line 60, in character 9
+
+return 1
+Syntax Error
+						
+bad_parentheses.tpc :
+ ä                     ^
+error :  äsyntax error in line 1, in character 22
+
+return 1
+Syntax Error
+						
+bad_print.tpc :
+°c«U     ^
+error : °c«Usyntax error in line 1, in character 6
+
+         ^
+error : syntax error in line 2, in character 10
+
+return 1
+Syntax Error
+						
+bad_struct.tpc :
+ dWCWU             ^
+error :  dWCWUsyntax error in line 2, in character 14
+
+return 139
+Semantic Error
+						
+empty_struct.tpc :
+°£,fU                ^
+error : °£,fUsyntax error in line 1, in character 17
+
+return 139
+Semantic Error
+						
+test-table-symboles_bad.tpc :
+Redeclaration of the variable test
+return 2
+Semantic Error
+						
+ok_test.tpc :
+return 0
+No problem
+
+					
+struct_test.tpc :
+return 0
+No problem
+
+					
+test-table-symboles.tpc :
+return 0
+No problem
+
+					
+trinome.tpc :
+return 0
+No problem
+
+					

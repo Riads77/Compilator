@@ -1,0 +1,13 @@
+int i;
+
+void main(void) {
+
+    i = 0;
+
+    while (i < 3){
+        i = i 1;
+        print(i);
+    }
+}
+
+// erreur dans la construction d'une expression

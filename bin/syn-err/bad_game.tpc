@@ -1,0 +1,74 @@
+char c;
+int i;
+int x, y;
+
+/*That is a commentary */
+
+void wtfdude(void){
+//    print('coucou');
+    print('t');
+    print('t');
+    print('t');
+    print('t');
+    
+    print(' );
+    print('\t');
+}
+
+char char_crossfit(int    val, char letter){
+    if (val)
+        return letter;
+
+    else
+        char_crossfit(letter + 1, letter +  1);
+}
+
+int fact(intval){
+    if (val < 0){
+        c = 'e';
+        print(c); 
+        print('\n');
+        return val;
+    }
+    return fact_aux(val);
+}
+
+erreur surprise
+
+void main(void) {
+    int number;
+    char coucouuu
+    char s;
+    
+    i = 0;
+     
+    s = 's';
+    number = fact(3);
+
+    print(number);
+
+    if (number == 0){
+        printf('y');
+    }
+
+    while (i < number){
+        wtfdude(); // oui
+        i = i + 1;
+        j = j - 1;
+    }
+
+    print'\n');
+    print(negatif);
+    print(5);
+    print('\'');
+
+    readc(c);
+    reade(i);
+
+    print(c);
+    print(e);
+}
+
+
+
+
